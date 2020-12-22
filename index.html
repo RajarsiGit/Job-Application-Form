@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Job Application Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- STYLE CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+        <script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper container" style="margin: 0px; padding: 0px;">
+            <div class="row">
+                <div class="col-md-6 position-fixed" style="padding: 0px;">
+                    <div class="image-holder"></div>
+                </div>
+                <div class="col-md-6" style="position: absolute; left: 50%; padding: 0px;">
+                    <form action="">
+                        <div id="wizard">
+                            <h1 class="text-center" style="padding: 1em;">Job Application Form</h1>
+                            <!-- SECTION 1 -->
+                            <h4></h4>
+                            <section>
+                                <div class="form-row form-group">
+                                    <div class="form-holder">
+                                        <label for="">
+                                        First Name *
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="Your first name" required>
+                                    </div>
+                                    <div class="form-holder">
+                                        <label for="">
+                                        Last Name *
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="Your last name" required>
+                                    </div>
+                                </div>	
+                                <div class="form-row">
+                                    <label for="">
+                                        Phone Number *
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Your phone" required>
+                                </div>	
+                                <div class="form-row">
+                                    <label for="">
+                                        Email *
+                                    </label>
+                                    <input type="email" class="form-control" placeholder="Your email" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Address *
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Street address" style="margin-bottom: 0.5em" required>
+                                    <input type="text" class="form-control" placeholder="Street address line 2">
+                                </div>	
+                                <div class="form-row">
+                                    <label for="">
+                                        Town / City *
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Your town / city" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Country *
+                                    </label>
+                                    <div class="form-holder">
+                                        <select name="" id="" class="form-control" required>
+                                            <option value=""></option>
+                                            <option value="Afganistan" class="option">Afghanistan</option>
+                                            <option value="Albania" class="option">Albania</option>
+                                            <option value="Algeria" class="option">Algeria</option>
+                                            <option value="American Samoa" class="option">American Samoa</option>
+                                            <option value="Andorra" class="option">Andorra</option>
+                                            <option value="Angola" class="option">Angola</option>
+                                            <option value="Anguilla" class="option">Anguilla</option>
+                                            <option value="Antigua & Barbuda" class="option">Antigua & Barbuda</option>
+                                            <option value="Argentina" class="option">Argentina</option>
+                                            <option value="Armenia" class="option">Armenia</option>
+                                            <option value="Aruba" class="option">Aruba</option>
+                                            <option value="Australia" class="option">Australia</option>
+                                            <option value="Austria" class="option">Austria</option>
+                                            <option value="Azerbaijan" class="option">Azerbaijan</option>
+                                            <option value="Bahamas" class="option">Bahamas</option>
+                                            <option value="Bahrain" class="option">Bahrain</option>
+                                            <option value="Bangladesh" class="option">Bangladesh</option>
+                                            <option value="Barbados" class="option">Barbados</option>
+                                            <option value="Belarus" class="option">Belarus</option>
+                                            <option value="Belgium" class="option">Belgium</option>
+                                            <option value="Belize" class="option">Belize</option>
+                                            <option value="Benin" class="option">Benin</option>
+                                            <option value="Bermuda" class="option">Bermuda</option>
+                                            <option value="Bhutan" class="option">Bhutan</option>
+                                            <option value="Bolivia" class="option">Bolivia</option>
+                                            <option value="Bonaire" class="option">Bonaire</option>
+                                            <option value="Bosnia & Herzegovina" class="option">Bosnia & Herzegovina</option>
+                                            <option value="Botswana" class="option">Botswana</option>
+                                            <option value="Brazil" class="option">Brazil</option>
+                                            <option value="British Indian Ocean Ter" class="option">British Indian Ocean Ter</option>
+                                            <option value="Brunei" class="option">Brunei</option>
+                                            <option value="Bulgaria" class="option">Bulgaria</option>
+                                            <option value="Burkina Faso" class="option">Burkina Faso</option>
+                                            <option value="Burundi" class="option">Burundi</option>
+                                            <option value="Cambodia" class="option">Cambodia</option>
+                                            <option value="Cameroon" class="option">Cameroon</option>
+                                            <option value="Canada" class="option">Canada</option>
+                                            <option value="Canary Islands" class="option">Canary Islands</option>
+                                            <option value="Cape Verde" class="option">Cape Verde</option>
+                                            <option value="Cayman Islands" class="option">Cayman Islands</option>
+                                            <option value="Central African Republic" class="option">Central African Republic</option>
+                                            <option value="Chad" class="option">Chad</option>
+                                            <option value="Channel Islands" class="option">Channel Islands</option>
+                                            <option value="Chile" class="option">Chile</option>
+                                            <option value="China" class="option">China</option>
+                                            <option value="Christmas Island" class="option">Christmas Island</option>
+                                            <option value="Cocos Island" class="option">Cocos Island</option>
+                                            <option value="Colombia" class="option">Colombia</option>
+                                            <option value="Comoros" class="option">Comoros</option>
+                                            <option value="Congo" class="option">Congo</option>
+                                            <option value="Cook Islands" class="option">Cook Islands</option>
+                                            <option value="Costa Rica" class="option">Costa Rica</option>
+                                            <option value="Cote DIvoire" class="option">Cote DIvoire</option>
+                                            <option value="Croatia" class="option">Croatia</option>
+                                            <option value="Cuba" class="option">Cuba</option>
+                                            <option value="Curaco" class="option">Curacao</option>
+                                            <option value="Cyprus" class="option">Cyprus</option>
+                                            <option value="Czech Republic" class="option">Czech Republic</option>
+                                            <option value="Denmark" class="option">Denmark</option>
+                                            <option value="Djibouti" class="option">Djibouti</option>
+                                            <option value="Dominica" class="option">Dominica</option>
+                                            <option value="Dominican Republic" class="option">Dominican Republic</option>
+                                            <option value="East Timor" class="option">East Timor</option>
+                                            <option value="Ecuador" class="option">Ecuador</option>
+                                            <option value="Egypt" class="option">Egypt</option>
+                                            <option value="El Salvador" class="option">El Salvador</option>
+                                            <option value="Equatorial Guinea" class="option">Equatorial Guinea</option>
+                                            <option value="Eritrea" class="option">Eritrea</option>
+                                            <option value="Estonia" class="option">Estonia</option>
+                                            <option value="Ethiopia" class="option">Ethiopia</option>
+                                            <option value="Falkland Islands" class="option">Falkland Islands</option>
+                                            <option value="Faroe Islands" class="option">Faroe Islands</option>
+                                            <option value="Fiji" class="option">Fiji</option>
+                                            <option value="Finland" class="option">Finland</option>
+                                            <option value="France" class="option">France</option>
+                                            <option value="French Guiana" class="option">French Guiana</option>
+                                            <option value="French Polynesia" class="option">French Polynesia</option>
+                                            <option value="French Southern Ter" class="option">French Southern Ter</option>
+                                            <option value="Gabon" class="option">Gabon</option>
+                                            <option value="Gambia" class="option">Gambia</option>
+                                            <option value="Georgia" class="option">Georgia</option>
+                                            <option value="Germany" class="option">Germany</option>
+                                            <option value="Ghana" class="option">Ghana</option>
+                                            <option value="Gibraltar" class="option">Gibraltar</option>
+                                            <option value="Great Britain" class="option">Great Britain</option>
+                                            <option value="Greece" class="option">Greece</option>
+                                            <option value="Greenland" class="option">Greenland</option>
+                                            <option value="Grenada" class="option">Grenada</option>
+                                            <option value="Guadeloupe" class="option">Guadeloupe</option>
+                                            <option value="Guam" class="option">Guam</option>
+                                            <option value="Guatemala" class="option">Guatemala</option>
+                                            <option value="Guinea" class="option">Guinea</option>
+                                            <option value="Guyana" class="option">Guyana</option>
+                                            <option value="Haiti" class="option">Haiti</option>
+                                            <option value="Hawaii" class="option">Hawaii</option>
+                                            <option value="Honduras" class="option">Honduras</option>
+                                            <option value="Hong Kong" class="option">Hong Kong</option>
+                                            <option value="Hungary" class="option">Hungary</option>
+                                            <option value="Iceland" class="option">Iceland</option>
+                                            <option value="Indonesia" class="option">Indonesia</option>
+                                            <option value="India" class="option">India</option>
+                                            <option value="Iran" class="option">Iran</option>
+                                            <option value="Iraq" class="option">Iraq</option>
+                                            <option value="Ireland" class="option">Ireland</option>
+                                            <option value="Isle of Man" class="option">Isle of Man</option>
+                                            <option value="Israel" class="option">Israel</option>
+                                            <option value="Italy" class="option">Italy</option>
+                                            <option value="Jamaica" class="option">Jamaica</option>
+                                            <option value="Japan" class="option">Japan</option>
+                                            <option value="Jordan" class="option">Jordan</option>
+                                            <option value="Kazakhstan" class="option">Kazakhstan</option>
+                                            <option value="Kenya" class="option">Kenya</option>
+                                            <option value="Kiribati" class="option">Kiribati</option>
+                                            <option value="Korea North" class="option">Korea North</option>
+                                            <option value="Korea Sout" class="option">Korea South</option>
+                                            <option value="Kuwait" class="option">Kuwait</option>
+                                            <option value="Kyrgyzstan" class="option">Kyrgyzstan</option>
+                                            <option value="Laos" class="option">Laos</option>
+                                            <option value="Latvia" class="option">Latvia</option>
+                                            <option value="Lebanon" class="option">Lebanon</option>
+                                            <option value="Lesotho" class="option">Lesotho</option>
+                                            <option value="Liberia" class="option">Liberia</option>
+                                            <option value="Libya" class="option">Libya</option>
+                                            <option value="Liechtenstein" class="option">Liechtenstein</option>
+                                            <option value="Lithuania" class="option">Lithuania</option>
+                                            <option value="Luxembourg" class="option">Luxembourg</option>
+                                            <option value="Macau" class="option">Macau</option>
+                                            <option value="Macedonia" class="option">Macedonia</option>
+                                            <option value="Madagascar" class="option">Madagascar</option>
+                                            <option value="Malaysia" class="option">Malaysia</option>
+                                            <option value="Malawi" class="option">Malawi</option>
+                                            <option value="Maldives" class="option">Maldives</option>
+                                            <option value="Mali" class="option">Mali</option>
+                                            <option value="Malta" class="option">Malta</option>
+                                            <option value="Marshall Islands" class="option">Marshall Islands</option>
+                                            <option value="Martinique" class="option">Martinique</option>
+                                            <option value="Mauritania" class="option">Mauritania</option>
+                                            <option value="Mauritius" class="option">Mauritius</option>
+                                            <option value="Mayotte" class="option">Mayotte</option>
+                                            <option value="Mexico" class="option">Mexico</option>
+                                            <option value="Midway Islands" class="option">Midway Islands</option>
+                                            <option value="Moldova" class="option">Moldova</option>
+                                            <option value="Monaco" class="option">Monaco</option>
+                                            <option value="Mongolia" class="option">Mongolia</option>
+                                            <option value="Montserrat" class="option">Montserrat</option>
+                                            <option value="Morocco" class="option">Morocco</option>
+                                            <option value="Mozambique" class="option">Mozambique</option>
+                                            <option value="Myanmar" class="option">Myanmar</option>
+                                            <option value="Nambia" class="option">Nambia</option>
+                                            <option value="Nauru" class="option">Nauru</option>
+                                            <option value="Nepal" class="option">Nepal</option>
+                                            <option value="Netherland Antilles" class="option">Netherland Antilles</option>
+                                            <option value="Netherlands" class="option">Netherlands (Holland, Europe)</option>
+                                            <option value="Nevis" class="option">Nevis</option>
+                                            <option value="New Caledonia" class="option">New Caledonia</option>
+                                            <option value="New Zealand" class="option">New Zealand</option>
+                                            <option value="Nicaragua" class="option">Nicaragua</option>
+                                            <option value="Niger" class="option">Niger</option>
+                                            <option value="Nigeria" class="option">Nigeria</option>
+                                            <option value="Niue" class="option">Niue</option>
+                                            <option value="Norfolk Island" class="option">Norfolk Island</option>
+                                            <option value="Norway" class="option">Norway</option>
+                                            <option value="Oman" class="option">Oman</option>
+                                            <option value="Pakistan" class="option">Pakistan</option>
+                                            <option value="Palau Island" class="option">Palau Island</option>
+                                            <option value="Palestine" class="option">Palestine</option>
+                                            <option value="Panama" class="option">Panama</option>
+                                            <option value="Papua New Guinea" class="option">Papua New Guinea</option>
+                                            <option value="Paraguay" class="option">Paraguay</option>
+                                            <option value="Peru" class="option">Peru</option>
+                                            <option value="Phillipines" class="option">Philippines</option>
+                                            <option value="Pitcairn Island" class="option">Pitcairn Island</option>
+                                            <option value="Poland" class="option">Poland</option>
+                                            <option value="Portugal" class="option">Portugal</option>
+                                            <option value="Puerto Rico" class="option">Puerto Rico</option>
+                                            <option value="Qatar" class="option">Qatar</option>
+                                            <option value="Republic of Montenegro" class="option">Republic of Montenegro</option>
+                                            <option value="Republic of Serbia" class="option">Republic of Serbia</option>
+                                            <option value="Reunion" class="option">Reunion</option>
+                                            <option value="Romania" class="option">Romania</option>
+                                            <option value="Russia" class="option">Russia</option>
+                                            <option value="Rwanda" class="option">Rwanda</option>
+                                            <option value="St Barthelemy" class="option">St Barthelemy</option>
+                                            <option value="St Eustatius" class="option">St Eustatius</option>
+                                            <option value="St Helena" class="option">St Helena</option>
+                                            <option value="St Kitts-Nevis" class="option">St Kitts-Nevis</option>
+                                            <option value="St Lucia" class="option">St Lucia</option>
+                                            <option value="St Maarten" class="option">St Maarten</option>
+                                            <option value="St Pierre & Miquelon" class="option">St Pierre & Miquelon</option>
+                                            <option value="St Vincent & Grenadines" class="option">St Vincent & Grenadines</option>
+                                            <option value="Saipan" class="option">Saipan</option>
+                                            <option value="Samoa" class="option">Samoa</option>
+                                            <option value="Samoa American" class="option">Samoa American</option>
+                                            <option value="San Marino" class="option">San Marino</option>
+                                            <option value="Sao Tome & Principe" class="option">Sao Tome & Principe</option>
+                                            <option value="Saudi Arabia" class="option">Saudi Arabia</option>
+                                            <option value="Senegal" class="option">Senegal</option>
+                                            <option value="Seychelles" class="option">Seychelles</option>
+                                            <option value="Sierra Leone" class="option">Sierra Leone</option>
+                                            <option value="Singapore" class="option">Singapore</option>
+                                            <option value="Slovakia" class="option">Slovakia</option>
+                                            <option value="Slovenia" class="option">Slovenia</option>
+                                            <option value="Solomon Islands" class="option">Solomon Islands</option>
+                                            <option value="Somalia" class="option">Somalia</option>
+                                            <option value="South Africa" class="option">South Africa</option>
+                                            <option value="Spain" class="option">Spain</option>
+                                            <option value="Sri Lanka" class="option">Sri Lanka</option>
+                                            <option value="Sudan" class="option">Sudan</option>
+                                            <option value="Suriname" class="option">Suriname</option>
+                                            <option value="Swaziland" class="option">Swaziland</option>
+                                            <option value="Sweden" class="option">Sweden</option>
+                                            <option value="Switzerland" class="option">Switzerland</option>
+                                            <option value="Syria" class="option">Syria</option>
+                                            <option value="Tahiti" class="option">Tahiti</option>
+                                            <option value="Taiwan" class="option">Taiwan</option>
+                                            <option value="Tajikistan" class="option">Tajikistan</option>
+                                            <option value="Tanzania" class="option">Tanzania</option>
+                                            <option value="Thailand" class="option">Thailand</option>
+                                            <option value="Togo" class="option">Togo</option>
+                                            <option value="Tokelau" class="option">Tokelau</option>
+                                            <option value="Tonga" class="option">Tonga</option>
+                                            <option value="Trinidad & Tobago" class="option">Trinidad & Tobago</option>
+                                            <option value="Tunisia" class="option">Tunisia</option>
+                                            <option value="Turkey" class="option">Turkey</option>
+                                            <option value="Turkmenistan" class="option">Turkmenistan</option>
+                                            <option value="Turks & Caicos Is" class="option">Turks & Caicos Is</option>
+                                            <option value="Tuvalu" class="option">Tuvalu</option>
+                                            <option value="Uganda" class="option">Uganda</option>
+                                            <option value="United Kingdom" class="option">United Kingdom</option>
+                                            <option value="Ukraine" class="option">Ukraine</option>
+                                            <option value="United Arab Erimates" class="option">United Arab Emirates</option>
+                                            <option value="United States of America" class="option">United States of America</option>
+                                            <option value="Uraguay" class="option">Uruguay</option>
+                                            <option value="Uzbekistan" class="option">Uzbekistan</option>
+                                            <option value="Vanuatu" class="option">Vanuatu</option>
+                                            <option value="Vatican City State" class="option">Vatican City State</option>
+                                            <option value="Venezuela" class="option">Venezuela</option>
+                                            <option value="Vietnam" class="option">Vietnam</option>
+                                            <option value="Virgin Islands (Brit)" class="option">Virgin Islands (Brit)</option>
+                                            <option value="Virgin Islands (USA)" class="option">Virgin Islands (USA)</option>
+                                            <option value="Wake Island" class="option">Wake Island</option>
+                                            <option value="Wallis & Futana Is" class="option">Wallis & Futana Is</option>
+                                            <option value="Yemen" class="option">Yemen</option>
+                                            <option value="Zaire" class="option">Zaire</option>
+                                            <option value="Zambia" class="option">Zambia</option>
+                                            <option value="Zimbabwe" class="option">Zimbabwe</option>
+                                        </select>
+                                        <i class="zmdi zmdi-caret-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        What is the best time to contact you? *
+                                    </label>
+                                    <div class="form-holder">
+                                        <select name="" id="" class="form-control" required>
+                                            <option value=""></option>
+                                            <option value="Morning" class="option">Morning</option>
+                                            <option value="Lunch Time" class="option">Lunch Time</option>
+                                            <option value="Afternoon" class="option">Afternoon</option>
+                                            <option value="Doesn't Matter" class="option">Doesn't Matter</option>
+                                        </select>
+                                        <i class="zmdi zmdi-caret-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        What is the best time to contact you? *
+                                    </label>
+                                    <div class="form-holder">
+                                        <select name="" id="" class="form-control" required>
+                                            <option value=""></option>
+                                            <option value="Morning" class="option">Morning</option>
+                                            <option value="Lunch Time" class="option">Lunch Time</option>
+                                            <option value="Afternoon" class="option">Afternoon</option>
+                                            <option value="Doesn't Matter" class="option">Doesn't Matter</option>
+                                        </select>
+                                        <i class="zmdi zmdi-caret-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        What is your social security number? *
+                                    </label>
+                                    <input type="test" class="form-control" placeholder="Your PAN number" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Are you currently legally entitled to work in the country where the job is based? *
+                                    </label>
+                                    <div class="checkbox-circle">
+                                        <label class="active">
+                                            <input type="radio" name="legally" value="yes" checked>Yes
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="legally" value="no">No
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        If applicable, please detail any restrictions:
+                                    </label>
+                                    <textarea class="form-control" style="height: 100px;"></textarea>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        If selected for employment are you willing to submit a background check? *
+                                    </label>
+                                    <div class="checkbox-circle">
+                                        <label class="active">
+                                            <input type="radio" name="background" value="yes" checked>Yes
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="background" value="no">No
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <!-- SECTION 2 -->
+                            <h4></h4>
+                            <section>
+                                <div class="form-row">
+                                    <label for="">
+                                        What position are you applying for? *
+                                    </label>
+                                    <div class="form-holder">
+                                        <select name="" id="" class="form-control" required>
+                                            <option value=""></option>
+                                            <option value="Sales" class="option">Sales</option>
+                                            <option value="Marketing" class="option">Marketing</option>
+                                            <option value="Human Resources" class="option">Human Resources</option>
+                                            <option value="Customer Service" class="option">Customer Service</option>
+                                        </select>
+                                        <i class="zmdi zmdi-caret-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        What is your desired employment? *
+                                    </label>
+                                    <div class="form-holder">
+                                        <select name="" id="" class="form-control" required>
+                                            <option value=""></option>
+                                            <option value="Full Time" class="option">Full Time</option>
+                                            <option value="Part Time" class="option">Part Time</option>
+                                            <option value="Internship" class="option">Internship</option>
+                                        </select>
+                                        <i class="zmdi zmdi-caret-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder">
+                                        <label for="">
+                                            What is your desired pay? *
+                                        </label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>	
+                                <div class="form-row">
+                                    <div class="form-holder">
+                                        <label for="">
+                                            What is your available start date? *
+                                        </label>
+                                        <input type="date" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Have you worked for Company before? *
+                                    </label>
+                                    <div class="checkbox-circle">
+                                        <label class="active">
+                                            <input type="radio" name="worked" value="yes" checked>Yes
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="worked" value="no">No
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Education details *
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="10th" style="margin-bottom: 0.5em" required>
+                                    <input type="text" class="form-control" placeholder="12th" style="margin-bottom: 0.5em" required>
+                                    <input type="text" class="form-control" placeholder="UG / Diploma" style="margin-bottom: 0.5em" required>
+                                    <input type="text" class="form-control" placeholder="PG">
+                                </div>	
+                            </section>
+    
+                            <!-- SECTION 3 -->
+                            <h4></h4>
+                            <section>
+                                <div class="form-row">
+                                    <label for="">
+                                        Work details
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable">
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Other achievements & details
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable">
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Skills
+                                    </label>
+                                    <label>
+                                        MS Office<input type="range" name="ms-word" min="0" max="50" value="10" step="10" style="float: right; width: 50%; top: 3px; margin: 0 2em; position: relative;">
+                                    </label>
+                                    <label>
+                                        Communication Skills<input type="range" name="com-skill" min="0" max="50" value="10" step="10" style="float: right; width: 50%; top: 3px; margin: 0 2em; position: relative;">
+                                    </label>
+                                    <label>
+                                        SEO<input type="range" name="seo" min="0" max="50" value="10" step="10" style="float: right; width: 50%; top: 3px; margin: 0 2em; position: relative;">
+                                    </label>
+                                </div>
+                            </section>
+    
+                            <!-- SECTION 4 -->
+                            <h4></h4>
+                            <section>
+                                <div class="form-row">
+                                    <label for="">
+                                        References
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable" style="margin-bottom: 0.5em">
+                                    <input type="text" class="form-control" placeholder="FIll out as applicable">
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Please upload your CV here *
+                                    </label>
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="form-row">
+                                    <label for="">
+                                        Please upload your Cover Letter here *
+                                    </label>
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-holder">
+                                        <label for="">
+                                            Date *
+                                        </label>
+                                        <input type="date" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="billing method" value="Check payments">I agree to terms & conditions. *
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </section>
+                        </div>
+                    </form>
+                </div>
+            </div>
+		</div>
+</body>
+</html>
